@@ -20,13 +20,15 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
   2. What is the NetRange IP address: 65.61.137.64 - 65.61.137.127
 
-  3. What is the company they use to store their infrastructure:
+  3. What is the company they use to store their infrastructure: Rackspace Backbone Engineering
 
-  4. What is the IP address of the DNS server:
+  4. What is the IP address of the DNS server: 65.61.137.117
 
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
+80/8080
+Apache Tomcat/Coyote JSP engine
 
 #### Step 4: Recon-ng
 
@@ -34,7 +36,9 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
 
-Is Altoro Mutual vulnerable to XSS: 
+Is Altoro Mutual vulnerable to XSS: yes
+
+
 
 ### Step 5: Zenmap
 
